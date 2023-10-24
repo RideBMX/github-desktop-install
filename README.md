@@ -8,8 +8,8 @@ The script works with deb and rpm packages. If your system does not use deb or r
 The installation script will be downloaded with curl and afterward executed.
 | Tool | Command                                                                                                                        |
 |:-----|:-------------------------------------------------------------------------------------------------------------------------------|
-| curl | `bash -c "$(curl -fsSL https://raw.githubusercontent.com/kontr0x/github-desktop-install/main/installGitHubDesktop.sh)" `       |
-| wget | `bash -c "$(wget -O- https://raw.githubusercontent.com/kontr0x/github-desktop-install/main/installGitHubDesktop.sh)"`          |
+| curl | `bash -c "$(curl -fsSL https://raw.githubusercontent.com/RideBMX/github-desktop-install/main/installGitHubDesktop.sh)" `       |
+| wget | `bash -c "$(wget -O- https://raw.githubusercontent.com/RideBMX/github-desktop-install/main/installGitHubDesktop.sh)"`          |
 
 ### Manuel execution
 It is always a good idea to inspect the script you are getting from the internet. 
@@ -17,9 +17,9 @@ Please feel free to first inspect the script and execute the script manually wit
 ```bash
 # --------------------
 # curl method
-curl -fsSL https://raw.githubusercontent.com/kontr0x/github-desktop-install/main/installGitHubDesktop.sh -o installGitHubDesktop.sh
+curl -fsSL https://raw.githubusercontent.com/RideBMX/github-desktop-install/main/installGitHubDesktop.sh -o installGitHubDesktop.sh
 # wget method
-wget https://raw.githubusercontent.com/kontr0x/github-desktop-install/main/installGitHubDesktop.sh
+wget https://raw.githubusercontent.com/RideBMX/github-desktop-install/main/installGitHubDesktop.sh
 # --------------------
 bash ./installGitHubDesktop.sh
 ```
